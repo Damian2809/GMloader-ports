@@ -15,7 +15,7 @@ Everything that is called gamename in this Tutorial is the actual gamename of yo
 3. Legally obtain your GameMaker game files from Steam/GOG/Itch.io
 4. Locate the data.win or game.unx file inside the game files and open it using the Undertale Mod Tool and determine the GameMaker version to see which wrapper (.apk/.port) can help to translate the game information appropriately.
 5. You can find the game version at the top of the window or under Data -> General Information -> Version
-![Pingo Game Version.png](https://github.com/Fraxinus88/GMloader-ports/blob/main/images/Pingo%20Game%20Version.PNG)
+![Pingo Game Version.png](https://github.com/Damian2809/GMloader-ports/blob/main/images/UTMT.PNG)
 6. Copy the appropriate wrapper version from [here](https://github.com/Damian2809/GMloader-ports/tree/main/gmloader%20wrappers%20(APK))
 7. Delete test.apk and rename the wrapper (e.g  rename GMS 2.2.2.302.apk to gamename.apk)
 8. Place all your game files (data.win, audiogroup.dat, .ogg file) and folders under /test/assets
@@ -39,7 +39,7 @@ You will have these Lines in your gmloader.json
 "
 Change the apk_path to the actual gamename.apk and you may want to mess with some of the other settings
 
-#### **First Step: Renaming your folder name, file names and .sh name**
+# **First Step: Renaming your folder name, file names and .sh name**
 Script Name: Test.sh -> Game Name.sh
 Game folder name: /test -> /gamename
 Under your gamefolder you need to rename the following 2 files:
@@ -71,7 +71,7 @@ Kindly refer to https://portmaster.games/gptokeyb-documentation.html
 
 First and foremost, if the GameMaker game has in-built gamepad controls, you may edit all the lines as the following:
 
-![testaptk.png](https://github.com/Fraxinus88/GMloader-ports/blob/main/images/testgptk.png)
+![testaptk.png](https://github.com/Damian2809/GMloader-ports/blob/main/images/testgptk.png)
 
 The backslash\" basically means that the input from the .gptk file is empty and hence controls will mainly be gotten from the in-build SDL2 controls available on your handheld.
 
